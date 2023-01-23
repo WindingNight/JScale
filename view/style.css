@@ -1,0 +1,45 @@
+
+
+body{
+text-align: center;
+font-size: 100%;
+background-color: aqua;
+}
+
+p {
+    word-wrap: break-word;
+}
+h1 {
+
+    word-wrap: break-word;
+}
+
+
+@media (min-width: 480px) {
+
+
+    .center{
+        width:60%;
+        height:100%;
+    }
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 23px;
+        }
+}
+@media (max-width: 480px) {
+
+
+        h1{
+            font-size: 18px;
+        }
+        p{
+            font-size: 14px;
+        }
+}
+
+.text-center{
+  text-align: center;
+}
